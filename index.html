@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter-UNIR</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./img/arcade.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="titulo">To live is to fight, to fight is to live!</h1>
+    <div>
+        <table class="tabla">
+            <tr>
+                <td colspan="4" id="cabecera">STREET FIGHTER</td>
+
+            </tr>
+            <tr>
+                <td> KEN<img src="./img/ken.png" alt=""></td>
+                <td>CHUN LI<img src="./img/ChunLi.png" alt=""> </td>
+                <td>Zangief<img src="./img/Zangief.png" alt=""> </td>
+                <td>Dhalsim<img src="./img/Dhalsim.png" alt=""> </td>
+            </tr>
+            <tr>
+                <td>ryu<img src="./img/Ryu.png" alt=""> </td>
+                <td>e honda<img src="./img/EHonda.png" alt=""> </td>
+                <td>blanka<img src="./img/Blanka.png" alt=""> </td>
+                <td>guille<img src="./img/Guille.png" alt=""> </td>
+            </tr>
+            <tr>
+                <td>t hawk<img src="./img/THawk.png" alt=""> </td>
+                <td>fellong<img src="./img/Feilong.png" alt=""> </td>
+                <td> dee jay<img src="./img/DeeJay.png" alt=""></td>
+                <td> cammy<img src="./img/Cammy.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>balrog<img src="./img/Balrog.png" alt=""> </td>
+                <td>vega<img src="./img/Vega.png" alt=""> </td>
+                <td>sagat<img src="./img/Sagat.png" alt=""> </td>
+                <td>m bison<img src="./img/MBison.png" alt=""> </td>
+            </tr>
+        </table>
+
+        <h2>Formulario de Inscripción para jugar a Street Figther</h2>
+
+        <div class="fomulario">
+            <form action="mailtoLuis@gmail.com">
+                <fieldset class="datos_personales"> 
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" id="apellidos">
+
+                    <label for="direcion">Direccion Postal:</label>
+                    <input type="text" name="calle" id="calle">
+                    <input type="text" name="numero" id="numero">
+                    <input type="text" name="piso" id="piso">
+                    <input type="text" name="codPostal" id="codPostal">
+                    <input type="text" name="ciudad" id="ciudad">
+
+                    <label for="nick">Nick:</label>
+                    <input type="text" name="nick" id="nick"><br>
+
+                    <label for="correo">Correo Electronico:</label>
+                    <input type="text" name="correo" id="correo">
+                </fieldset>
+                <fieldset>
+                    <legend>Sexo usuario</legend>
+                    <label for="hombre">Hombrer</label>
+                    <input type="radio" name="hombre" id="hombre">
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" name="mujer" id="mujer">
+                    <label for="binario">Prefiero no decir</label>
+                    <input type="radio" name="binario" id="binario">
+                </fieldset>
+                <fieldset>
+                    <label for="fechaN">Fecha Nacimiento:</label>
+                    <input type="date" name="fechaN" id="fechaN">
+                </fieldset>
+                <fieldset>
+                    <legend>Personajes</legend>
+                    <label for="selPersonaje">Selecciona el personaje</label>
+                    <input type = "text" name="sel" id="sel"></input>
+                </fieldset>
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    <textarea name="cometarios" id="comentarios"></textarea>
+                </fieldset>
+                <button class="button" type="submit">ENVIAR</button>
+                <button class="button" type="reset">BORRAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

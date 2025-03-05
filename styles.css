@@ -1,0 +1,112 @@
+:root{
+    background-image: url("./img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+   
+
+}
+@font-face {
+    font-family: street;
+    src: url("./font/street.otf");
+
+/*  
+    #########################################
+    ############## TABLA ####################
+    #########################################
+*/
+
+}
+body{
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-family: street;
+    font-size: 46px;
+    color: crimson;
+}
+table{
+    margin: auto;
+    height:800px ;
+    width: 600px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    align-items: center;
+    background-color: black;
+}
+#cabecera{
+    background-image: url("./img/fondocabecera.jpg");
+    font-size: 40px;
+    color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-position: 0px -60px;
+   
+}
+tr,td{
+    font-family: street;
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: darkorange;
+    height: 45px;
+    width: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+h2{
+    font-family: street;
+    font-size: 28px;
+    color: crimson;
+}
+/*
+#########################################
+############## FORMULARIO ###############
+#########################################
+*/
+legend{
+    display:block;
+    font-family: street;
+    color:rgb(237,175,5);
+    font-size: 14px;
+}
+.fomulario{
+    display: block;
+    margin: auto;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    height: 1100px;
+    width: 600px;
+    background-color: black;
+    border: 10px outset rgb(237,175,5);
+    border-radius: 10px;
+    font-size: 16px;
+}
+.button{
+    align-items: center;
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border: 1px solid crimson ;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: street;
+    font-size: 18px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+input{
+    display: block;
+}
+textarea{
+    width: 560px;
+    height: 200px;
+}
