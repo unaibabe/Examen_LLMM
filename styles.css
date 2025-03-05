@@ -103,10 +103,28 @@ legend{
     margin-left: 65px;
     margin-bottom: 10px;
 }
+.elemnto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle; 
+    
+}
 input{
     display: block;
 }
 textarea{
     width: 560px;
-    height: 200px;
+    height: 50px;
 }
+#datos_personales{
+    display: inline-block;
+    
+}
+#calle, #numero, #piso, #codPostal, #ciudad {
+    display: inline-block;
+   
+}
+ #hombre #mujer #binario{
+    padding-left: 50px;
+    display: inline
+ }
